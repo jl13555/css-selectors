@@ -1,0 +1,35 @@
+.class1, .class3{
+	border: 1vmin solid blue;
+}
+
+.class2{
+	border: 2vh dotted red;
+}
+
+.class1 .class2 .class3{
+	background-color: lightblue;
+}
+
+.class1 > .class2{
+	background-color: pink;
+}
+
+.class1 + .class1 {
+	margin-left: 60px;
+}
+
+.class3 + .class1{
+	text-align: center;
+}
+
+.class2 *{
+	font-weight: bolder;
+}
+
+.class3 :hover{
+	background-color: orange;
+}
+
+.class2 + .class3{
+	text-align: right;
+}
